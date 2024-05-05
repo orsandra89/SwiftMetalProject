@@ -1,0 +1,22 @@
+{
+    "configurations": [
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Debug Swift_Metal_Project",
+        "program": "${workspaceFolder:Swift_Metal_Project}/.build/debug/Swift_Metal_Project",
+        "args": [],
+        "cwd": "${workspaceFolder:Swift_Metal_Project}",
+        "preLaunchTask": "swift: Build Debug Swift_Metal_Project"
+      },
+      {
+        "type": "lldb",
+        "request": "launch",
+        "name": "Release Swift_Metal_Project",
+        "program": "${workspaceFolder:Swift_Metal_Project}/.build/release/Swift_Metal_Project",
+        "args": [],
+        "cwd": "${workspaceFolder:Swift_Metal_Project}",
+        "preLaunchTask": "swift: Build Release Swift_Metal_Project"
+      }
+    ]
+  }
