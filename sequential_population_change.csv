@@ -1,0 +1,11 @@
+Algorithm,Population Size,Items Size,Calculation Time,NumberOfThreads
+Sequential,10000,100,3,1
+Sequential,11000,100,11.062716875,1
+Sequential,12000,100,12.102725292,1
+Sequential,13000,100,13.014267917,1
+Sequential,14000,100,14.140989708,1
+Sequential,15000,100,15.366669583,1
+Sequential,16000,100,16.231876666,1
+Sequential,17000,100,17.225921,1
+Sequential,18000,100,18.125406791,1
+Sequential,19000,100,19.192046292,1
